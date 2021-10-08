@@ -31,15 +31,15 @@
         <tag>HEAD</tag>
     </scm>
 
-    <repositories>
+    <distributionManagement>
         <repository>
             <id>tools-nexus-release</id>
             <url>http://tools:8081/repository/maven-releases/</url>
         </repository>
-        <repository>
+        <snapshotRepository>
             <id>tools-nexus-snapshot</id>
             <url>http://tools:8081/repository/maven-snapshots/</url>
-        </repository>
-    </repositories>
+        </snapshotRepository>
+    </distributionManagement>
     
 </project>
