@@ -23,9 +23,20 @@
         </developer>
     </developers>
     <scm>
-        <connection>scm:git:git@github.com:BenoitDuffez/ScriptRunner.git</connection>
-        <developerConnection>scm:git:git@github.com:BenoitDuffez/ScriptRunner.git</developerConnection>
-        <url>https://github.com/BenoitDuffez/ScriptRunner</url>
+        <developerConnection>scm:git:git@github.com:nafora-systematic/ScriptRunner.git</developerConnection>
+        <url>https://github.com/nafora-systematic/ScriptRunner</url>
+        <tag>HEAD</tag>
     </scm>
+
+    <repositories>
+        <repository>
+            <id>tools-nexus-release</id>
+            <url>http://tools:8081/repository/maven-releases/</url>
+        </repository>
+        <repository>
+            <id>tools-nexus-snapshot</id>
+            <url>http://tools:8081/repository/maven-snapshots/</url>
+        </repository>
+    </repositories>
     
 </project>
