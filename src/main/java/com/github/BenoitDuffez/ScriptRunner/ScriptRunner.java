@@ -21,6 +21,8 @@
  *  limitations under the License.
  */
 
+package com.github.BenoitDuffez.ScriptRunner;
+
 import java.io.*;
 import java.sql.*;
 import java.text.SimpleDateFormat;
